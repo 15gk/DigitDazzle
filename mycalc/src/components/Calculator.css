@@ -32,8 +32,8 @@
 
 button {
   width: 100%;
-  padding: 15px; /* Increased padding for a larger button */
-  font-size: 1.4em; /* Increased font size */
+  padding: 15px; 
+  font-size: 1.4em;
   border: none;
   background-color: #c1e8e8;
   cursor: pointer;
@@ -49,14 +49,14 @@ button:active {
 }
 
 .clear-button {
-  grid-column: span 1; /* Make the clear button wider */
-  background-color: #73d1e4; /* Use a different color for the clear button */
+  grid-column: span 1; 
+  background-color: #73d1e4;
   color: #fff;
 }
 
 .equal-button {
-  grid-column: span 3; /* Make the equal button smaller */
-  background-color: #2d8d23; /* Use a different color for the equal button */
+  grid-column: span 3; 
+  background-color: #2d8d23;
   color: #fff;
 }
 
