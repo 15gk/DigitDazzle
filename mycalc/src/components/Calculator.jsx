@@ -24,7 +24,7 @@ const Calculator = () => {
       '7', '8', '9', '/',
       '4', '5', '6', '*',
       '1', '2', '3', '-',
-      '0', '.', '+', '=', // Interchanged '=' and '+'
+      '0', '.', '+', '%', 
     ];
   
     return buttons.map((button) => (
@@ -43,7 +43,10 @@ const Calculator = () => {
       <div className="buttons">
         {renderButtons()}
         <button onClick={() => handleButtonClick('C')} className="clear-button">
-          C
+          Clear
+        </button>
+        <button onClick={() => handleButtonClick('=')} className="equal-button">
+          =
         </button>
       </div>
     </div>
