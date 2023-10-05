@@ -1,11 +1,10 @@
 import React from 'react'
-import Operation from './components/Operation'
+import Calculator from './components/Calculator'
 
 const App = () => {
   return (<>
     <h1> Welcome to the Calculator </h1>
-    <button>Proceed</button>
-    <Operation/>
+    <Calculator/>
     </>
   )
 }
